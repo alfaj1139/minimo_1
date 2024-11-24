@@ -1,0 +1,285 @@
+/*common css start*/
+body{
+	margin: 0;
+	font-family: "Playfair", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#626262; 
+	/*border: 1px solid red;*/
+}
+
+/*common css end*/
+
+/*header srart*/
+header{
+	padding: 30px 0;
+}
+
+.container{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	 
+}
+.logo{
+	margin-top: 10px;
+	float: left;
+	width: 13%;
+}
+.logo a {
+	display: block;
+}
+.logo a img{
+	width: 100%;
+	float: left;
+}
+.menu{
+	float: right;
+	width: 65%;
+	
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin: 0 50px;
+	color: #626262;;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+}
+
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+
+/*header end*/
+
+
+/*banner stard*/
+.banner{
+	
+}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+
+/*banner stard*/
+
+
+/*perfect stard*/
+.perfect{
+	padding: 100px 0 40px;
+}
+.container2{
+	overflow: hidden;
+  margin: 0 auto;
+	width: 80%;
+	
+}
+.p_content{}
+.c_light{
+	margin: 0;
+	font-family: "Ubuntu" sans-serif;
+	font-size: 14px;
+	font-weight: 300px;
+	text-transform: uppercase;
+}
+.c_titial{
+	margin: 15px 0 20px;
+	font-size: 16px;
+	font-weight: 400px;;
+}
+.c_p{
+	margin: 0px;
+     font-family: "Playfair", serif;
+	 font-size: 16px;
+	 font-weight: 400px;
+	 line-height: 24px;
+}
+.c_link{
+	margin-top: 35px;
+	display: block;
+	text-decoration: none;
+	color: #626262;
+
+}
+/*perfect end*/
+
+
+/*blog start*/
+.blog{
+	padding: 0 0 100px;
+}
+
+
+.sb_item{
+	margin-top: 60px;
+	float: left;
+  box-sizing: border-box;
+  width: 47%;
+ /*border: 1px solid red;*/
+
+}
+.sb_item:nth-child(even){
+	margin-left:6%;
+}
+.sb_img{
+	margin-bottom: 25px;
+}
+.sb_img img{
+	width: 100%;
+}
+
+
+/*blog end*/
+
+/*newsletter start*/
+ .newsletter{
+ padding: 50px 0;
+ background-color: #f0f0f0;
+ }
+.signup{
+	text-align: center;
+}
+
+.s_from{
+	margin: 0 auto;
+	width: 382px;
+	left: 0;
+	right: 0;
+	position: relative;
+	overflow: hidden;
+}
+.s_from input{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	padding: 50px 50px 10px 10px;
+	width: 310px;
+	font-family: "playfair display", serif;
+	font-size: 14px;
+	outline: none;
+
+}
+
+
+.s_from button{
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 51px;
+    right: 0px;
+
+}
+.s_from button img{}
+
+/*newsletter end*/
+
+
+
+/*blog2 start*/
+ .blog2{
+ 	padding: 40px 0px 100px;
+ }
+.load{
+
+  text-align: center;
+	
+}
+.load button{
+	width: 165px;
+	height: 60px;
+  margin: 100px 0px;
+  background: transparent;
+  border: 1px solid #626262;
+   font-family: "Playfair", serif;
+   font-size: 20px;
+  font-weight: 400;
+  color: #626262;
+  cursor: pointer;
+  transition: .33s linear;
+}
+.load button:hover{
+	background-color:#626262 ;
+	color:white ;
+}
+
+/*blog2 end*/
+
+
+/* footer start  */
+
+footer{
+	background-color: ;
+	height: 60px;
+	padding: 40px 0px;
+}
+.f_menu{
+  width: 30%;
+	float: left;
+	margin-top: 20px;
+ /*border: 1px solid;*/
+}
+.f_menu ul{
+	float: left;
+	padding: 0;
+}
+.f_menu ul li{
+	float: left;
+	list-style: none;
+}
+.f_menu ul li a{
+  color: #000000;
+	text-decoration: none;
+	display: block;
+	margin-right: 35px;
+	border-bottom: 1px solid transparent;
+}
+.footer_menu ul li a:hover{
+	border-bottom: 1px solid #000000;
+	
+}
+.footer_menu ul li:last-child a{
+	margin-right: 0;
+}
+ 
+ /*icons start*/
+
+.icons{
+	width: 30%;
+	float: right;
+	margin-top: 20px;
+	/*border: 1px solid red;*/
+	
+}
+.icons ul{
+	float: right;
+}
+.icons ul li{
+	color: #000000;
+	list-style: none;
+	float: left;
+}
+.icons ul li a{
+	  width: 20%;
+	  color: #626262;
+    display: inline-block;
+    float: left;
+    margin: 0 15px;
+}
+.icons ul li a:hover{
+	color: #000000;
+}
+.icons ul li:last-child a{
+	margin-right: 0;
+}
+/* footer end  */
